@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+
+  h2:
+    console:
+      enabled: true
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+  cloud:
+    stream:
+      bindings:
+        customer-order-placed-events:
+          destination: customer.order.placed.events.topic
+          contentType: application/json

@@ -1,0 +1,6 @@
+C:\Abhinav_work\Alberta\Code\Event-Driven-CaseStudy\email-service\src\main\java\com\example\email\events\Messaging.java
+C:\Abhinav_work\Alberta\Code\Event-Driven-CaseStudy\email-service\src\main\java\com\example\email\events\inbound\OutOfStockEvent.java
+C:\Abhinav_work\Alberta\Code\Event-Driven-CaseStudy\email-service\src\main\java\com\example\email\events\inbound\RefundInitiatedEvent.java
+C:\Abhinav_work\Alberta\Code\Event-Driven-CaseStudy\email-service\src\main\java\com\example\email\listener\OutOfStockEventListener.java
+C:\Abhinav_work\Alberta\Code\Event-Driven-CaseStudy\email-service\src\main\java\com\example\email\listener\RefundIntiatedListener.java
+C:\Abhinav_work\Alberta\Code\Event-Driven-CaseStudy\email-service\src\main\java\com\example\email\EmailApplication.java

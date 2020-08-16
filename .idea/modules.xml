@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Event-Driven-CaseStudy.iml" filepath="$PROJECT_DIR$/.idea/Event-Driven-CaseStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer/customer-service.iml" filepath="$PROJECT_DIR$/customer/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Email/email-service.iml" filepath="$PROJECT_DIR$/Email/email-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/refund-service/refund-service.iml" filepath="$PROJECT_DIR$/refund-service/refund-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock/stock-service.iml" filepath="$PROJECT_DIR$/stock/stock-service.iml" />
+    </modules>
+  </component>
+</project>

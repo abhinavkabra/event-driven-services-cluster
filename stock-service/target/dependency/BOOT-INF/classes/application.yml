@@ -1,0 +1,38 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+
+  h2:
+    console:
+      enabled: true
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+  cloud:
+    stream:
+      bindings:
+        out-of-stock-events:
+          destination: out.of.stock.events.topic
+          contentType: application/json
+
+        customer-order-placed-events:
+          destination: customer.order.placed.events.topic
+          contentType: application/json
+          group: stock
+          consumer:
+            maxAttempts: 3
+            backOffInitialInterval: 1000
+            backOffMaxInterval: 6000
+
+        rabbit:
+          bindings:
+            customer-order-placed-events:
+              consumer:
+                autoBindDlq: true
+                republishToDlq: true
+                dlqTtl: 120000
+                dlqDeadLetterExchange:
