@@ -1,7 +1,0 @@
-com\example\stock\events\requests\OutOfStockEvent.class
-com\example\stock\listener\StockEventListener.class
-com\example\stock\events\requests\inbound\CustomerOrderRequestEvent$CustomerOrderRequestEventBuilder.class
-com\example\stock\StockApplication.class
-com\example\stock\events\Messaging.class
-com\example\stock\events\requests\OutOfStockEvent$OutOfStockEventBuilder.class
-com\example\stock\events\requests\inbound\CustomerOrderRequestEvent.class

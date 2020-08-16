@@ -35,3 +35,11 @@ H
 stock-service/Dockerfile,1\5\15ced714645b5b07709a53e1fc8c7a8aeca0d65e
 C
 docker-compose.yaml,e\f\ef8def03dc8f162799089e9b5f4321201c8810d5
+K
+customer-service/.gitignore,b\b\bbb0ca50a78a1422af7f0d1134fcf9ec4ce57036
+H
+email-service/.gitignore,c\1\c12e4122ab86a73b57591da9cfe65e8e326fa9ba
+I
+refund-service/.gitignore,a\a\aa9e9d1fcbeeae1642c1a77fe32d6562ff4fc132
+H
+stock-service/.gitignore,3\a\3ad577ca1d1c4ac996e5bb436d6e72fe0f93915c
